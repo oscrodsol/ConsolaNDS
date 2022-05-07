@@ -4,7 +4,7 @@ height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: darkkhaki;
+    background-color: rgb(35, 34, 27);
 }
 
 .consola{
@@ -126,7 +126,7 @@ height: 100vh;
     align-items: center;
     justify-content: center;
 
-    background-color: rgba(239, 239, 239, 0.277);
+    background-color: rgb(92, 92, 92);
 }
 .pantallaArriba{
     height: 9em;
@@ -153,7 +153,7 @@ height: 100vh;
 .medioFooterArr1{
     height: 1em;
     width: 5.5em;
-    background-color: darkkhaki;
+    background-color: rgb(132, 131, 116);
 }
 
 .gomaAbajoIzq{
@@ -229,8 +229,6 @@ height: 100vh;
 
     height: 14em;
     width: 30em;
-
-    background-color: blueviolet
 }
 
 .headerAbajo{
@@ -249,7 +247,143 @@ height: 100vh;
     height: 11em;
     width: 8em;
 
+    display: flex;
+    flex-direction: column;
+
     background-color: aqua;
+}
+
+.powerBoton{
+    height: 2em;
+    width: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: antiquewhite;
+}
+
+.margenPowerizq{
+    height: 1em;
+    width: 0.5em;
+
+    background-color: rgb(121, 161, 148);
+}
+
+.power{
+    height: 1em;
+    width: 2em;
+
+    background-color: aquamarine;
+}
+
+.margenPowerDer{
+    height: 1em;
+    width: 0.5em;
+
+    background-color: rgb(121, 161, 148);
+}
+
+.cajaFlechas{
+    height: 6em;
+    width: 8em;
+    display: flex;
+}
+
+.margenFlechasIzq{
+    height: 6em;
+    width: 1em;
+
+    background-color: blueviolet;
+}
+
+.flechas{
+    height: 6em;
+    width: 6em;
+    display: flex;
+    flex-direction: row;
+}
+
+.flechasIzq{
+    height: 6em;
+    width: 2em;
+    display: flex;
+    flex-direction: column;
+
+    background-color: dimgrey;
+}
+
+.huecoArribaIzquierda{
+    height: 2em;
+    width: 2em;
+}
+
+.flechaIzquierda{
+    height: 2em;
+    width: 2em;
+
+    background-color: rgb(58, 58, 58);
+}
+
+.flechasMed{
+    height: 6em;
+    width: 2em;
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(143, 76, 76);
+}
+
+.flechaMedioArriba{
+    height: 2em;
+    width: 2em;
+
+    background-color: rgb(58, 58, 58);
+}
+
+.flechaMedio{
+    height: 2em;
+    width: 2em;
+}
+
+.flechaMedioAbajo{
+    height: 2em;
+    width: 2em;
+
+    background-color: rgb(58, 58, 58);
+}
+
+.flechasDer{
+    height: 6em;
+    width: 2em;
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(59, 84, 207);
+}
+
+.huecoDerechaArriba{
+    height: 2em;
+    width: 2em;
+}
+
+.flechaDerecha{
+    height: 2em;
+    width: 2em;
+
+    background-color: rgb(58, 58, 58);
+}
+
+.huecoDerechaAbajo{
+    height: 2em;
+    width: 2em;
+}
+
+.margenFlechasDer{
+    height: 6em;
+    width: 1em;
+
+    background-color: blueviolet;
 }
 
 .medioAbajoIzqMargen{
@@ -289,12 +423,231 @@ height: 100vh;
     height: 11em;
     width: 8em;
 
-    background-color: aqua;
+    background-color: rgb(102, 70, 231);
 }
 
+.startSelectBoton{
+    height: 2em;
+    width: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.start{
+    height: 1em;
+    width: 2em;
+
+    background-color: aquamarine;
+}
+
+.margenStartSelect{
+    height: 1em;
+    width: 0.5em;
+
+    background-color: rgb(113, 171, 152);
+}
+
+.select{
+    height: 1em;
+    width: 2em;
+
+    background-color: aquamarine;
+}
+
+.botonera{
+    height: 6em;
+    width: 8em;
+    display: flex;
+}
+
+.margenBotonesIzq{
+    height: 6em;
+    width: 1em;
+
+    background-color: blueviolet;
+}
+
+.botones{
+    height: 6em;
+    width: 6em;
+    display: flex;
+    flex-direction: row;
+}
+
+.botonesIzq{
+    height: 6em;
+    width: 2em;
+    display: flex;
+    flex-direction: column;
+
+    background-color: dimgrey;
+}
+
+.huecoArribaIzquierda{
+    height: 2em;
+    width: 2em;
+}
+
+.botonIzquierda{
+    height: 2em;
+    width: 2em;
+
+    background-color: rgb(58, 58, 58);
+}
+
+.botonesMed{
+    height: 6em;
+    width: 2em;
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(143, 76, 76);
+}
+
+.botonMedioArriba{
+    height: 2em;
+    width: 2em;
+
+    background-color: rgb(58, 58, 58);
+}
+
+.botonMedio{
+    height: 2em;
+    width: 2em;
+}
+
+.botonMedioAbajo{
+    height: 2em;
+    width: 2em;
+
+    background-color: rgb(58, 58, 58);
+}
+
+.botonesDer{
+    height: 6em;
+    width: 2em;
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(59, 84, 207);
+}
+
+.huecoDerechaArriba{
+    height: 2em;
+    width: 2em;
+}
+
+.botonDerecha{
+    height: 2em;
+    width: 2em;
+
+    background-color: rgb(58, 58, 58);
+}
+
+.huecoDerechaAbajo{
+    height: 2em;
+    width: 2em;
+}
+
+.margenBotonesDer{
+    height: 6em;
+    width: 1em;
+
+    background-color: blueviolet;
+}
+
+
 .footerAbajo{
+
+    display: flex;
+    flex-direction: row;
+
     height: 2em;
     width: 30em;
+    justify-content: space-between;
 
-    background-color: darkolivegreen;
+}
+
+.footerAbajo1{
+    height: 2em;
+    width: 6em;
+
+    background-color: indianred;
+}
+
+.footerAbajo2{
+    display: flex;
+    flex-direction: column;
+}
+
+.micLeds{
+    height: 1.5em;
+    width: 14em;
+    display: flex;
+    flex-direction: row;
+    background-color: darkseagreen;
+}
+.margenMic{
+    height: 1em;
+    width: 1em;
+
+    background-color: bisque;
+}
+
+.mic{
+    height: 1em;
+    width: 0.3em;
+    background-color: black;
+}
+
+.margenMicLeds{
+    height: 1em;
+    width: 10.7em;
+
+    background-color: goldenrod;
+}
+
+.leds{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 1em;
+    width: 1em;
+    background-color: rgb(39, 15, 115);
+}
+
+.ledIzq{
+    height: 1em;
+    width: 0.3em;
+    background-color: black;
+}
+
+.ledDer{
+    height: 1em;
+    width: 0.3em;
+    background-color: black;
+}
+
+.margenLeds{
+    height: 1em;
+    width: 1em;
+
+    background-color: antiquewhite;
+}
+
+.footerAbajo2Margen{
+    height: 0.5em;
+    width: 14em;
+
+    background-color: chocolate;
+}
+
+.footerAbajo3{
+    height: 2em;
+    width: 6em;
+
+    background-color: indianred;
 }
