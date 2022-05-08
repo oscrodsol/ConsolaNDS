@@ -1,10 +1,9 @@
 body {
-height: 100vh;
-
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: radial-gradient(circle at center, lightgrey, black);
+    background: radial-gradient(circle at center, rgb(114, 114, 252), black);
 }
 
 .consola{
@@ -21,7 +20,6 @@ height: 100vh;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-
     height: 16em;
     width: 30em;
 }
@@ -82,7 +80,6 @@ height: 100vh;
 .gomaArribaIzq{
     height: 1em;
     width: 1em;
-
     background: linear-gradient(to bottom right,rgb(134, 134, 134), rgb(35, 35, 35));
     box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(166, 166, 166);
 }
@@ -97,7 +94,6 @@ height: 100vh;
 .huecoDer{
     height: 1em;
     width: 5.5em;
-
     background-color: grey;
     box-shadow: -0.1em 0 0 0 inset black;
 }
@@ -142,8 +138,6 @@ height: 100vh;
     width: 6em;
 }
 
-
-
 .medianaArrIzqAbajDer{
     display: flex;
     justify-content: center;
@@ -162,29 +156,24 @@ height: 100vh;
 .cristalArriba {
     height: 11em;
     width: 14em;
-
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 0.3em;
-
     background: linear-gradient(to bottom right,rgb(185, 185, 185), rgb(35, 35, 35));
     box-shadow: 0.1em 0.1em 0 0 inset rgb(111, 111, 111); 
 }
 .pantallaArriba{
     height: 9em;
     width: 12em;
-
-    background-color: rgba(0, 0, 0, 0.684);
+    background-color: rgba(0, 0, 0, 0.55);
 }
 
 .footerArriba{
-
     background-color: grey;
     align-items: center;
     display: flex;
     flex-direction: column;
-
 }
 
 .medioFooterArr{
@@ -254,7 +243,6 @@ height: 100vh;
     width: 12em;
     background-color: grey;
     box-shadow: 0 -0.1em 0em 0 inset black;
-
 }
 
 .medioFooterAbaj3{
@@ -275,11 +263,9 @@ height: 100vh;
 .parteAbajo {
     display: flex;
     flex: auto;
-
     align-items: center;
     justify-content:center ;
     flex-direction: column;
-
     height: 14em;
     width: 30em;
 }
@@ -307,10 +293,8 @@ height: 100vh;
 .medioAbajoIzq{
     height: 11em;
     width: 8em;
-
     display: flex;
     flex-direction: column;
-
     background-color: grey;
     box-shadow: 0.1em -0.1em 0 0 inset black;
 }
@@ -321,7 +305,6 @@ height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-
     background-color: grey;
     box-shadow: 0.1em 0.1em 0 0 inset black;
 }
@@ -329,9 +312,9 @@ height: 100vh;
 .margenPowerizq{
     height: 1em;
     width: 0.5em;
-
     background: linear-gradient(to right, grey, rgb(58, 58, 58))
 }
+
 
 .power{
     height: 1em;
@@ -346,7 +329,31 @@ height: 100vh;
 .power:hover , .textoPower:hover{
     box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(36, 36, 36);
     color: rgb(79, 79, 79);
+}
 
+a{
+    height: 1em;
+    width: 2em;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(132, 132, 132);
+}
+  
+a:visited {
+    text-decoration: none;
+    color: rgb(132, 132, 132);
+}
+  
+a:hover {
+    text-decoration: none;
+    color: rgb(79, 79, 79);
+}
+  
+a:active {
+    text-decoration: none;
+    color: rgb(132, 132, 132);
 }
 
 .textoPower{
@@ -364,7 +371,6 @@ height: 100vh;
 .margenPowerDer{
     height: 1em;
     width: 0.5em;
-
     background: linear-gradient(to left, grey, rgb(58, 58, 58))
 }
 
@@ -377,7 +383,6 @@ height: 100vh;
 .margenFlechasIzq{
     height: 6em;
     width: 1em;
-
     background-color: grey;
     box-shadow: 0.1em 0 0 0 inset black;
 }
@@ -394,7 +399,6 @@ height: 100vh;
     width: 2em;
     display: flex;
     flex-direction: column;
-
     background-color: grey;
 }
 
@@ -432,7 +436,6 @@ height: 100vh;
     width: 2em;
     display: flex;
     flex-direction: column;
-
     background-color: grey;
 }
 
@@ -458,7 +461,6 @@ height: 100vh;
     border-bottom: 1em solid rgb(100, 100, 100);
     margin-bottom: 0.5em;
 }
-
 
 .flechaMedio{
     display: flex;
@@ -501,13 +503,11 @@ height: 100vh;
     margin-top: 0.5em;
 }
 
-
 .flechasDer{
     height: 6em;
     width: 2em;
     display: flex;
     flex-direction: column;
-
     background-color: grey;
 }
 
@@ -547,14 +547,12 @@ height: 100vh;
 .margenFlechasDer{
     height: 6em;
     width: 1em;
-
     background-color: grey;
 }
 
 .medioAbajoIzqMargen{
     height: 11em;
     width: 1em;
-
     background-color: grey;
     box-shadow: 0.1em 0 0 0 inset black;
 }
@@ -567,7 +565,6 @@ height: 100vh;
 .pantallaAbajo {
     height: 9em;
     width: 12em;
-
     background: linear-gradient(to bottom right,rgb(35, 35, 35), rgb(72, 72, 72));
     box-shadow: -0.1em -0.1em 0.1em 0 inset rgb(35, 35, 35);
 }
@@ -597,12 +594,9 @@ height: 100vh;
     width: 1em;
 }
 
-
-
 .medioAbajoDerMargen{
     height: 11em;
     width: 1em;
-
     background-color: grey;
     box-shadow: -0.1em 0 0 0 inset black;
 }
@@ -610,7 +604,6 @@ height: 100vh;
 .medioAbajoDer{
     height: 11em;
     width: 8em;
-
     background-color: grey;
     box-shadow: -0.1em -0.1em 0 0 inset black;
 }
@@ -658,7 +651,6 @@ height: 100vh;
 .margenStartSelect{
     height: 1em;
     width: 0.5em;
-
     background-color: grey(113, 171, 152);
 }
 
@@ -701,7 +693,6 @@ height: 100vh;
 .margenBotonesIzq{
     height: 6em;
     width: 1em;
-
     background-color: grey;
 }
 
@@ -717,7 +708,6 @@ height: 100vh;
     width: 2em;
     display: flex;
     flex-direction: column;
-
     background-color: grey;
 }
 
@@ -766,6 +756,23 @@ height: 100vh;
     box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(166, 166, 166);
 }
 
+.textoY{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.8em;
+    width: 1.8em;
+    font-size: 1em;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(132, 132, 132);
+    text-shadow: #000000;
+}
+
+.textoY:hover{
+    color: rgb(38, 38, 38);
+}
+
 .botonY:hover{
     background: linear-gradient(to bottom right, rgb(35, 35, 35), rgb(134, 134, 134));
     box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(36, 36, 36);
@@ -790,7 +797,6 @@ height: 100vh;
     width: 2em;
     display: flex;
     flex-direction: column;
-
     background-color: grey;
 }
 
@@ -828,6 +834,23 @@ height: 100vh;
 .botonX:hover{
     background: linear-gradient(to bottom right, rgb(35, 35, 35), rgb(134, 134, 134));
     box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(36, 36, 36);
+}
+
+.textoX{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.8em;
+    width: 1.8em;
+    font-size: 1em;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(132, 132, 132);
+    text-shadow: #000000;
+}
+
+.textoX:hover{
+    color: rgb(38, 38, 38);
 }
 
 .botonMedio{
@@ -871,12 +894,28 @@ height: 100vh;
     box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(36, 36, 36);
 }
 
+.textoB{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.8em;
+    width: 1.8em;
+    font-size: 1em;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(132, 132, 132);
+    text-shadow: #000000;
+}
+
+.textoB:hover{
+    color: rgb(38, 38, 38);
+}
+
 .botonesDer{
     height: 6em;
     width: 2em;
     display: flex;
     flex-direction: column;
-
     background-color: grey;
 }
 
@@ -930,6 +969,23 @@ height: 100vh;
     box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(36, 36, 36);
 }
 
+.textoA{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.8em;
+    width: 1.8em;
+    font-size: 1em;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(132, 132, 132);
+    text-shadow: #000000;
+}
+
+.textoA:hover{
+    color: rgb(38, 38, 38);
+}
+
 .huecoDerechaAbajo{
     display: flex;
     align-items: start;
@@ -946,28 +1002,24 @@ height: 100vh;
 
 .margenBotonesDer{
     height: 6em;
-    width: 1em;
-
+    width: 0.5em;
+    margin-left: 0.5em;
     background-color: grey;
     box-shadow: -0.1em 0 0 0 inset black;
 }
 
 
 .footerAbajo{
-
     display: flex;
     flex-direction: row;
-
     height: 2em;
     width: 30em;
     justify-content: space-between;
-
 }
 
 .footerAbajo1{
     height: 2em;
     width: 6em;
-
     background-color: grey;
     box-shadow: 0 -0.1em 0 0 inset black;
 }
@@ -983,12 +1035,10 @@ height: 100vh;
     display: flex;
     flex-direction: row;
     background-color: grey;
-    
 }
 .margenMic{
     height: 1em;
     width: 1em;
-
     background-color: grey;
 }
 
@@ -1004,9 +1054,7 @@ height: 100vh;
     width: 10.7em;
     display: flex;
     align-items: center;
-
     background-color: grey;
-
 }
 
 .espacioMic{
@@ -1020,7 +1068,6 @@ height: 100vh;
 }
 
 .leds{
-
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -1033,8 +1080,48 @@ height: 100vh;
 .ledIzq{
     height: 1em;
     width: 0.3em;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(67, 67, 67);
     margin-top: 0.2em;
+}
+
+.margenLeds{
+    height: 1em;
+    width: 1em;
+    background-color: grey;
+}
+
+.footerAbajo2Margen{
+    height: 0.5em;
+    width: 14em;
+    background-color: grey;
+    box-shadow: 0 -0.1em 0 0 inset black;
+}
+
+.footerAbajo3{
+    height: 2em;
+    width: 6em;
+    background-color: grey;
+    box-shadow: 0 -0.1em 0 0 inset black;
+}
+
+#activo{
+    display: none;
+    height: 8.8em;
+    width: 11.8em;
+}
+
+#activo:target{
+    display: block;
+    height: 8.8em;
+    width: 11.8em;
+}
+
+.nintendoHome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9em;
+    width: 12em;
 }
 
 .ledDer{
@@ -1043,27 +1130,4 @@ height: 100vh;
     background: linear-gradient(rgb(13, 232, 13), black);
     box-shadow: -0.1em -0.1em 0.1em 0 inset rgb(5, 125, 5) ;
     margin-top: 0.2em;
-}
-
-.margenLeds{
-    height: 1em;
-    width: 1em;
-
-    background-color: grey;
-}
-
-.footerAbajo2Margen{
-    height: 0.5em;
-    width: 14em;
-
-    background-color: grey;
-    box-shadow: 0 -0.1em 0 0 inset black;
-}
-
-.footerAbajo3{
-    height: 2em;
-    width: 6em;
-
-    background-color: grey;
-    box-shadow: 0 -0.1em 0 0 inset black;
 }
