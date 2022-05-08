@@ -8,7 +8,7 @@
 
 Proyecto realizado para el Bootcamp Full Stack Developer de GeeksHubs, donde se pedia realizar una consola portatil, mando de consola, o dispositivo similar.
   
-  <img src="/img/proyectoConsola.png">
+  <img src="/img/ProyectoConsola.png">
 
 ## Características:
 
