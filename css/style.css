@@ -24,9 +24,12 @@ height: 100vh;
 
     height: 16em;
     width: 30em;
-
-
 }
+
+.medioArribaPantalla{
+    background-color: grey;
+}
+
 .headerArriba{
     display: flex;
     flex-direction: column;
@@ -80,15 +83,15 @@ height: 100vh;
     height: 1em;
     width: 1em;
 
-    background-color: beige;
+    background: linear-gradient(to bottom right,rgb(134, 134, 134), rgb(35, 35, 35));
+    box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(166, 166, 166);
 }
-
 
 .gomaArribaDer{
     height: 1em;
     width: 1em;
-    background-color: blue;
-
+    background: linear-gradient(to bottom right,rgb(134, 134, 134), rgb(35, 35, 35));
+    box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(166, 166, 166);
 }
 
 .huecoDer{
@@ -163,8 +166,10 @@ height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 0.3em;
 
-    background-color: rgb(83, 45, 45);
+    background: linear-gradient(to bottom right,rgb(185, 185, 185), rgb(35, 35, 35));
+    box-shadow: 0.1em 0.1em 0 0 inset rgb(111, 111, 111); 
 }
 .pantallaArriba{
     height: 9em;
@@ -198,8 +203,8 @@ height: 100vh;
 .gomaAbajoIzq{
     height: 1em;
     width: 1em;
-    background-color: white;
-
+    background: linear-gradient(to bottom right,rgb(134, 134, 134), rgb(35, 35, 35));
+    box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(166, 166, 166);
 }
 
 .medioFooterArr2{
@@ -211,7 +216,8 @@ height: 100vh;
 .gomaAbajoDer{
     height: 1em;
     width: 1em;
-    background-color: blue;
+    background: linear-gradient(to bottom right,rgb(134, 134, 134), rgb(35, 35, 35));
+    box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(166, 166, 166);
 }
 
 
@@ -337,7 +343,7 @@ height: 100vh;
     border-radius: 5%;
     box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(166, 166, 166);
 }
-.power:hover , .texto:hover{
+.power:hover , .textoPower:hover{
     box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(36, 36, 36);
     color: rgb(79, 79, 79);
 
@@ -389,7 +395,7 @@ height: 100vh;
     display: flex;
     flex-direction: column;
 
-    background-color: dimgrey;
+    background-color: grey;
 }
 
 .huecoArribaIzquierda{
@@ -400,16 +406,23 @@ height: 100vh;
 .flechaIzquierda{
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     height: 2em;
     width: 2em;
-
+    box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(166, 166, 166);
+    border-radius: 0.5em 0 0 0.5em;
     background-color: rgb(58, 58, 58);
+}
+
+.flechaIzquierda:hover {
+    background: linear-gradient(to right, rgb(112, 112, 112),rgb(58, 58, 58));
+    box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(84, 84, 84);
+    border-right: 1em solid rgb(160, 160, 160);
 }
 
 .trianguloIzq{
     border-top: 0.5em solid transparent;
-    border-right: 1em solid #32557f;
+    border-right: 1em solid rgb(100, 100, 100);
     border-bottom: 0.5em solid transparent;
     margin-left: 0.2em;
 }
@@ -420,7 +433,7 @@ height: 100vh;
     display: flex;
     flex-direction: column;
 
-    background-color: rgb(143, 76, 76);
+    background-color: grey;
 }
 
 .flechaMedioArriba{
@@ -429,22 +442,40 @@ height: 100vh;
     justify-content: center;
     height: 2em;
     width: 2em;
-
-
+    box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(166, 166, 166);
+    border-radius: 0.5em 0.5em 0 0;
     background-color: rgb(58, 58, 58);
+}
+
+.flechaMedioArriba:hover{
+    background: linear-gradient(to bottom, rgb(112, 112, 112),rgb(58, 58, 58));
+    box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(84, 84, 84);
 }
 
 .trianguloArriba{
     border-right: 0.5em solid transparent;
     border-left: 0.5em solid transparent;
-    border-bottom: 1em solid #32557f;
+    border-bottom: 1em solid rgb(100, 100, 100);
     margin-bottom: 0.5em;
 }
 
 
 .flechaMedio{
+    display: flex;
+    align-items: center;
+    align-self: center;
     height: 2em;
     width: 2em;
+    background-color: rgb(58, 58, 58);
+}
+
+.redondoFlechaMedio{
+    margin-left: 0.2em;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 5em;
+    background: linear-gradient(to bottom right, rgb(35, 35, 35), rgb(134, 134, 134));
+    box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(36, 36, 36);
 }
 
 .flechaMedioAbajo{
@@ -453,13 +484,19 @@ height: 100vh;
     justify-content: center;
     height: 2em;
     width: 2em;
-
+    box-shadow: -0.1em -0.1em 0.1em 0 inset rgb(52, 52, 52);
+    border-radius: 0 0 0.5em 0.5em;
     background-color: rgb(58, 58, 58);
+}
+
+.flechaMedioAbajo:hover{
+    background: linear-gradient(to bottom, rgb(58, 58, 58), rgb(112, 112, 112));
+    box-shadow: 0.1em -0.1em 0.1em 0 inset rgb(53, 53, 53);
 }
 
 .trianguloAbajo{
     border-left: 0.5em solid transparent;
-    border-top: 1em solid #32557f;
+    border-top: 1em solid rgb(100, 100, 100);
     border-right: 0.5em solid transparent;
     margin-top: 0.5em;
 }
@@ -471,7 +508,7 @@ height: 100vh;
     display: flex;
     flex-direction: column;
 
-    background-color: rgb(59, 84, 207);
+    background-color: grey;
 }
 
 .huecoDerechaArriba{
@@ -482,16 +519,22 @@ height: 100vh;
 .flechaDerecha{
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     height: 2em;
     width: 2em;
-
+    box-shadow: -0.1em 0.1em 0.1em 0 inset rgb(91, 90, 90);
+    border-radius: 0 0.5em 0.5em 0;
     background-color: rgb(58, 58, 58);
+}
+
+.flechaDerecha:hover{
+    background: linear-gradient(to right, rgb(58, 58, 58), rgb(112, 112, 112));
+    box-shadow: -0.1em 0.1em 0.1em 0 inset rgb(84, 84, 84);
 }
 
 .trianguloDer{
     border-top: 0.5em solid transparent;
-    border-left: 1em solid #32557f;
+    border-left: 1em solid rgb(100, 100, 100);
     border-bottom: 0.5em solid transparent;
     margin-right: 0.2em;
 }
@@ -525,7 +568,8 @@ height: 100vh;
     height: 9em;
     width: 12em;
 
-    background-color: black;
+    background: linear-gradient(to bottom right,rgb(35, 35, 35), rgb(72, 72, 72));
+    box-shadow: -0.1em -0.1em 0.1em 0 inset rgb(35, 35, 35);
 }
 
 .margenPantallaAbajo{
@@ -717,8 +761,14 @@ height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(58, 58, 58);
     border-radius: 50%;
+    background: linear-gradient(to bottom right, rgb(134, 134, 134),rgb(35, 35, 35));
+    box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(166, 166, 166);
+}
+
+.botonY:hover{
+    background: linear-gradient(to bottom right, rgb(35, 35, 35), rgb(134, 134, 134));
+    box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(36, 36, 36);
 }
 
 .huecoAbajoIzquierda{
@@ -771,7 +821,13 @@ height: 100vh;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background-color: rgb(58, 58, 58);
+    background: linear-gradient(to bottom right, rgb(134, 134, 134),rgb(35, 35, 35));
+    box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(166, 166, 166);
+}
+
+.botonX:hover{
+    background: linear-gradient(to bottom right, rgb(35, 35, 35), rgb(134, 134, 134));
+    box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(36, 36, 36);
 }
 
 .botonMedio{
@@ -805,8 +861,14 @@ height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(58, 58, 58);
     border-radius: 50%;
+    background: linear-gradient(to bottom right, rgb(134, 134, 134),rgb(35, 35, 35));
+    box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(166, 166, 166);
+}
+
+.botonB:hover{
+    background: linear-gradient(to bottom right, rgb(35, 35, 35), rgb(134, 134, 134));
+    box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(36, 36, 36);
 }
 
 .botonesDer{
@@ -858,8 +920,14 @@ height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(58, 58, 58);
     border-radius: 50%;
+    background: linear-gradient(to bottom right, rgb(134, 134, 134),rgb(35, 35, 35));
+    box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(166, 166, 166);
+}
+
+.botonA:hover{
+    background: linear-gradient(to bottom right, rgb(35, 35, 35), rgb(134, 134, 134));
+    box-shadow: 0.1em 0.1em 0.1em 0 inset rgb(36, 36, 36);
 }
 
 .huecoDerechaAbajo{
