@@ -12,7 +12,6 @@ Proyecto realizado para el Bootcamp Full Stack Developer de GeeksHubs, donde se 
 
 ## Características:
 
-* Responsive.
 * Botones animados.
 * Se puede encender la pantalla de arriba.
 * Solo usa HTML y CSS.
