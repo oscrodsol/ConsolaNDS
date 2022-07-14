@@ -8,12 +8,13 @@
 ## Acerca del proyecto:
 
 Proyecto realizado para el Bootcamp Full Stack Developer de GeeksHubs, donde se pedia realizar una consola portatil, mando de consola, o dispositivo similar.
+  
+  <img src="/img/ProyectoConsola.png">
 
 <img src="/img/proyectoConsola.png">
 
 ## Características:
 
-* Responsive.
 * Botones animados.
 * Se puede encender la pantalla de arriba.
 * Solo usa HTML y CSS.
